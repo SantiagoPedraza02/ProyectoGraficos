@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Educativo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Dashboard Educativo</h1>
+    </header>
+    <div class="dashboard-container">
+        <div class="dashboard-item">
+            <h2>Composición del Alumnado por Nivel</h2>
+            <canvas id="graficoComposicionNivel"></canvas>
+        </div>
+        <div class="dashboard-item">
+            <h2>Nivel de Asistencia General</h2>
+            <canvas id="graficoAsistenciaGeneral"></canvas>
+        </div>
+        <div class="dashboard-item">
+            <h2>Comparación de Asistencia por Curso</h2>
+            <canvas id="graficoAsistenciaPorCurso"></canvas>
+        </div>
+        <div class="dashboard-item">
+            <h2>Evolución Anual de Asistencia</h2>
+            <canvas id="graficoEvolucionAsistencia"></canvas>
+        </div>
+        <div class="dashboard-item">
+            <h2>Nivel General de Calificaciones</h2>
+            <canvas id="graficoCalificacionesGenerales"></canvas>
+        </div>
+        <div class="dashboard-item">
+            <h2>Comparativa de Calificaciones por Curso</h2>
+            <canvas id="graficoCalificacionesPorCurso"></canvas>
+        </div>
+        <div class="dashboard-item">
+            <h2>Estado de Envío de Comunicaciones</h2>
+            <canvas id="graficoEstadoEnvio"></canvas>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
